@@ -48,8 +48,7 @@ picture {
   transform: translateY(50%);
 }
 
-.advice-update:hover{
-  color: #53FFAB;
+.advice-update:hover, .advice-update:focus{
   cursor: pointer;
   box-shadow: 0 5px 15px var(--advice-dice-color);
 }
